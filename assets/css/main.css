@@ -218,7 +218,7 @@ input, select, textarea {
 		}
 
 	h2 {
-		font-size: 1.1em;
+		font-size: 1.5em;
 	}
 
 	h3 {
@@ -2338,6 +2338,7 @@ input, select, textarea {
 		list-style: disc;
 		margin: 0 0 2em 0;
 		padding-left: 1em;
+		display: inline-block;
 	}
 
 		ul li {
@@ -2364,7 +2365,7 @@ input, select, textarea {
 	}
 
 		dl dt {
-			display: block;
+			display: inline-block;
 			font-weight: 700;
 			margin: 0 0 1em 0;
 		}
@@ -2568,7 +2569,7 @@ input, select, textarea {
 				display: block;
 				margin-right: 1.5em;
 				min-width: 4em;
-				width: 4em;
+				width: 24em;
 			}
 
 				ul.posts article .image img {
@@ -2687,8 +2688,8 @@ input, select, textarea {
 			}
 
 				.mini-posts > * {
-					margin: 2em 2em 0 0;
-					width: calc(50% - 2em);
+					margin: 1em 1em 0 0;
+					width: calc(33% - 1em);
 				}
 
 				.mini-posts > :nth-child(-n + 2) {
@@ -3027,7 +3028,7 @@ input, select, textarea {
 	}
 
 	table {
-		margin: 0 0 2em 0;
+		margin: 2em 2em 2em 2em;
 		width: 100%;
 	}
 
@@ -3434,11 +3435,11 @@ input, select, textarea {
 		}
 
 			#intro header h2 {
-				font-size: 2em;
+				font-size: 4em;
 			}
 
 			#intro header p {
-				font-size: 0.7em;
+				font-size: 1em;
 			}
 
 	}
@@ -3459,7 +3460,10 @@ input, select, textarea {
 			}
 
 			#intro header h2 {
-				font-size: 1.25em;
+				font-size: 2em;
+			}
+			#intro header p {
+				font-size: 0.7em;
 			}
 
 			#intro header > :last-child {
