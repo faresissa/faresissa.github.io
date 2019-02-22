@@ -2323,6 +2323,10 @@ input, select, textarea {
 			}
 
 /* List */
+	li.pressed {
+		font-weight: bold;
+		color: #2ebaae;
+	}
 
 	ol {
 		list-style: decimal;
