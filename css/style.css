@@ -628,6 +628,12 @@ body.offcanvas {
     .services .icon2 i {
       font-size: 30px;
       color: #08880e; }
+  .services .icon3 {
+    display: block;
+    margin-bottom: 20px; }
+    .services .icon3 i {
+      font-size: 30px;
+      color: #000; }
   .services h3 {
     font-family: "Quicksand", Arial, sans-serif;
     font-size: 16px;
@@ -648,6 +654,8 @@ body.offcanvas {
     border-bottom: 2px solid #2fa499; }
   .services.color-6 {
     border-bottom: 2px solid #4054b2; }
+  .services.color-7 {
+    border-bottom: 2px solid #000; }
 
 .services {
   margin-bottom: 80px;
